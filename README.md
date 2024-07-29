@@ -23,27 +23,32 @@
 
 >To run this project, you'll need to have the following libraries installed:
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+-pandas
+-numpy
+-matplotlib
+-seaborn
+-scikit-learn
+
+You can install the required libraries using pip:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
 
 ## 💻Dataset
 
->The dataset used in this project contains transactions made by credit cards in September 2013 by European cardholders. It includes only numerical input variables which are the result of a PCA transformation. Due to confidentiality issues, the original features are not provided.
+-The dataset used in this project contains transactions made by credit cards in September 2013 by European cardholders. It includes only numerical input variables which are the result of a PCA transformation. Due to confidentiality issues, the original features are not provided.
 
--Time: Number of seconds elapsed between this transaction and the first transaction in the dataset
--V1 to V28: Principal components obtained with PCA
--Amount: Transaction amount
--Class: Target variable (1 for fraudulent transactions, 0 for non-fraudulent transactions)
+>Time: Number of seconds elapsed between this transaction and the first transaction in the dataset
+>V1 to V28: Principal components obtained with PCA
+>Amount: Transaction amount
+>Class: Target variable (1 for fraudulent transactions, 0 for non-fraudulent transactions)
 
 ## 🤖Features
 
--Data Preprocessing: Handled missing values, scaled features, and split the data into training and testing sets.
--Model Development: Implemented a Random Forest Classifier to predict fraudulent transactions.
--Evaluation Metrics: Calculated accuracy, precision, recall, F1-score, and ROC AUC to evaluate model performance.
--Visualization: Visualized class distribution, correlation matrix, transaction amount distribution, model evaluation metrics, feature importance, and pairplot of 
+>Data Preprocessing: Handled missing values, scaled features, and split the data into training and testing sets.
+>Model Development: Implemented a Random Forest Classifier to predict fraudulent transactions.
+>Evaluation Metrics: Calculated accuracy, precision, recall, F1-score, and ROC AUC to evaluate model performance.
+>Visualization: Visualized class distribution, correlation matrix, transaction amount distribution, model evaluation metrics, feature importance, and pairplot of 
  selected features.
 
 ## 💸Applications
@@ -74,35 +79,37 @@ Cybersecurity Firms: To integrate fraud detection systems into broader security 
 ## 👨‍💻Project Setup
 
 Clone the repository:
+```bash
 git clone https://github.com/yourusername/credit-card-fraud-detection.git
 
 Navigate to the project directory:
+```bash
 cd credit-card-fraud-detection
 
 Run the Jupyter Notebook to execute the code and visualize the results.
 
 ## 🔮Results
 
->The Random Forest Classifier achieved the following evaluation metrics:
+-The Random Forest Classifier achieved the following evaluation metrics:
 
--Accuracy
--Precision
--Recall
--F1-score
--ROC AUC
+>Accuracy
+>Precision
+>Recall
+>F1-score
+>ROC AUC
 
 
 
 ## 📱Visualization
 
->The project includes the following visualizations:
+-The project includes the following visualizations:
 
--Class Distribution: Bar graph showing the distribution of fraudulent and non-fraudulent transactions.
--Correlation Matrix Heatmap: Heatmap showing the correlation between different features.
--Distribution of Transaction Amounts: Histogram showing the distribution of transaction amounts.
--Model Evaluation Metrics: Bar graph showing the values of different evaluation metrics.
--Feature Importance: Bar graph showing the importance of different features in the Random Forest model.
--Pairplot of Selected Features: Pairplot showing the relationships between selected features.
+>Class Distribution: Bar graph showing the distribution of fraudulent and non-fraudulent transactions.
+>Correlation Matrix Heatmap: Heatmap showing the correlation between different features.
+>Distribution of Transaction Amounts: Histogram showing the distribution of transaction amounts.
+>Model Evaluation Metrics: Bar graph showing the values of different evaluation metrics.
+>Feature Importance: Bar graph showing the importance of different features in the Random Forest model.
+>Pairplot of Selected Features: Pairplot showing the relationships between selected features.
 
 
 ## 👨‍🏫Conclusion
