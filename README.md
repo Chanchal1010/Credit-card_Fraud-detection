@@ -57,22 +57,29 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 >1. Financial Institutions
 Banks: To monitor and detect fraudulent activities in credit card transactions, preventing financial losses.
 Credit Unions: To safeguard members' accounts from unauthorized transactions.
+
 >2. E-commerce Platforms
 Online Retailers: To protect customers and the platform from fraudulent purchases, chargebacks, and associated fees.
 Payment Gateways: To offer secure transaction services to merchants and reduce fraud-related disputes.
+
 >3. Payment Processors
 Digital Wallets: To ensure the integrity and security of digital payment transactions.
 Mobile Payment Apps: To detect and prevent fraudulent transactions in mobile-based payment systems.
+
 >4. Insurance Companies
 Claims Processing: To identify and prevent fraudulent insurance claims, reducing the financial burden on insurance providers.
+
 >5. Telecommunication Companies
 Billing Systems: To detect anomalies in billing and prevent fraudulent usage of telecom services.
+
 >6. Online Services and Subscriptions
 Streaming Services: To prevent fraudulent account access and subscription misuse.
 Software-as-a-Service (SaaS): To secure transactions and account activities on subscription-based platforms.
+
 >7. Government and Regulatory Bodies
 Anti-Fraud Agencies: To enhance the detection and investigation of fraudulent financial activities.
 Law Enforcement: To assist in tracking and prosecuting financial fraud cases.
+
 >8. Fraud Prevention Services
 Consultancy Firms: To offer fraud detection solutions to clients across different industries.
 Cybersecurity Firms: To integrate fraud detection systems into broader security solutions for protecting financial data.
@@ -108,10 +115,15 @@ Run the Jupyter Notebook to execute the code and visualize the results.
 -The project includes the following visualizations:
 
 >Class Distribution: Bar graph showing the distribution of fraudulent and non-fraudulent transactions.
+
 >Correlation Matrix Heatmap: Heatmap showing the correlation between different features.
+
 >Distribution of Transaction Amounts: Histogram showing the distribution of transaction amounts.
+
 >Model Evaluation Metrics: Bar graph showing the values of different evaluation metrics.
+
 >Feature Importance: Bar graph showing the importance of different features in the Random Forest model.
+
 >Pairplot of Selected Features: Pairplot showing the relationships between selected features.
 
 
