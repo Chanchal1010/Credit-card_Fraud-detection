@@ -47,8 +47,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## 🤖Features
 
 >Data Preprocessing: Handled missing values, scaled features, and split the data into training and testing sets.
+
 >Model Development: Implemented a Random Forest Classifier to predict fraudulent transactions.
+
 >Evaluation Metrics: Calculated accuracy, precision, recall, F1-score, and ROC AUC to evaluate model performance.
+
 >Visualization: Visualized class distribution, correlation matrix, transaction amount distribution, model evaluation metrics, feature importance, and pairplot of 
  selected features.
 
