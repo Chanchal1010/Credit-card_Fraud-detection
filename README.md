@@ -23,16 +23,17 @@
 
 >To run this project, you'll need to have the following libraries installed:
 
--pandas
--numpy
--matplotlib
--seaborn
--scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
 
 You can install the required libraries using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
 ## 💻Dataset
 
@@ -81,10 +82,12 @@ Cybersecurity Firms: To integrate fraud detection systems into broader security 
 Clone the repository:
 ```bash
 git clone https://github.com/yourusername/credit-card-fraud-detection.git
+```
 
 Navigate to the project directory:
 ```bash
 cd credit-card-fraud-detection
+```
 
 Run the Jupyter Notebook to execute the code and visualize the results.
 
