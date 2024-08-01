@@ -91,7 +91,7 @@ Cybersecurity Firms: To integrate fraud detection systems into broader security 
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
+git clone https://github.com/Chanchal1010/Credit-card_Fraud-detection
 ```
 
 Navigate to the project directory:
